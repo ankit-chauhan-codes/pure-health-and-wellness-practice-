@@ -116,7 +116,7 @@ html, body{
 
 #about-us{
     padding-top: 140px;
-    padding-bottom: 140px;
+    padding-bottom: 40px;
 }
 
 #about-us img{
@@ -157,3 +157,33 @@ html, body{
     line-height: 1.42;
 }
 /* About-Us */
+
+
+
+/* customer-service */
+#customer-service{
+    padding-top: 40px;
+    padding-bottom: 140px;
+}
+
+#customer-service .service-box{
+    max-width: 440px;
+    background:#F1EFEA;
+    border-radius: 8px;
+    padding-top: 45px;
+    padding-bottom: 44px;
+    padding-right: 54px;
+    padding-left: 40px;
+}
+
+#customer-service h6{
+    font-family: myriad-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #181B1A;
+    font-size: 24px;
+    line-height: 1.33;
+    letter-spacing: -0.48;
+    max-width: 80%;
+}
+/* customer-service */
