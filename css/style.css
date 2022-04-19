@@ -36,3 +36,37 @@ html, body{
     color: #ffffff;
 }
 
+
+/* Nav */
+.navbar{
+    border-bottom: 1px solid #E9EFEF;
+    background: transparent;
+    margin-bottom: -100px;
+}
+
+.navbar .navbar-nav .nav-link{
+    font-family: myriad-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #181B1A;
+    font-size: 18px;
+    line-height: 1.44;
+    transition: all 0.4s ease;
+    margin-right: 60px;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:active{
+    color: #769B97;
+    border-bottom: 4px solid #769B97;
+    text-decoration: none;
+    font-family: myriad-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.44;
+}
+/* Nav */
+
+
+
