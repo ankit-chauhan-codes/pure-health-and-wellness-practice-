@@ -70,3 +70,42 @@ html, body{
 
 
 
+/* Home */
+#home{
+    padding-top: 266px;
+    padding-bottom: 266px;
+    background: url(../images/header-bg-image.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+}
+
+#home h1{
+    font-family: myriad-pro, sans-serif;
+    font-weight: 700;
+    font-style: black;
+    color: #181B1A;
+    font-size: 18px;
+    line-height: 4;
+    letter-spacing: 1.8;
+}
+
+#home h2{
+    font-family: myriad-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #181B1A;
+    font-size: 72px;
+    line-height: 1;
+    letter-spacing: -1.44;
+}
+
+#home p{
+    font-family: myriad-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #464847;
+    font-size: 21px;
+    line-height: 1.38;
+    max-width: 75%;
+}
+/* Home */
