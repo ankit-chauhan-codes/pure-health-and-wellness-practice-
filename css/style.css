@@ -29,6 +29,7 @@ html, body{
 .secondary-btn{
     background-color: transparent;
     color: #769b97;
+    border:  2px solid #769b97;
 }
 
 .third-btn{
@@ -82,8 +83,8 @@ html, body{
 #home h1{
     font-family: myriad-pro, sans-serif;
     font-weight: 700;
-    font-style: black;
-    color: #181B1A;
+    font-style: normal;
+    color: #769B97;
     font-size: 18px;
     line-height: 4;
     letter-spacing: 1.8;
@@ -109,3 +110,50 @@ html, body{
     max-width: 75%;
 }
 /* Home */
+
+
+/* About-Us */
+
+#about-us{
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+#about-us img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+#about-us .about-us-body{
+    margin-left: 50px;
+}
+
+#about-us h6{
+    font-family: myriad-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #769B97;
+    font-size: 18px;
+    line-height: 4;
+    letter-spacing: -1.8;
+}
+
+#about-us h2{
+    font-family: myriad-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #181B1A;
+    font-size: 60px;
+    line-height: 1.06;
+    letter-spacing: -1.2;
+}
+
+#about-us p{
+    font-family: myriad-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #464847;
+    font-size: 21px;
+    line-height: 1.42;
+}
+/* About-Us */
