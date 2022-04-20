@@ -592,3 +592,76 @@ html, body{
     margin-left: -5px;
 }
 /* contact-us */
+
+
+
+/* footer */
+#footer .footer-top{
+    background: #181B1A;
+    background-size: cover;
+}
+
+#footer .footer-top .footer-body{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#footer .footer-top .footer-body .footer-text p{
+    font-family: myriad-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #c1d2d0;
+    font-size: 16px;
+    line-height: 1.375; 
+    max-width: 78%;
+}
+
+#footer .footer-top .navigation a,
+#footer .footer-top .our-services a{
+    display: block;
+}
+
+#footer .footer-top .navigation a,
+#footer .footer-top .our-services a{
+    text-decoration: none;
+    font-family: myriad-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #c1d2d0;
+    font-size: 16px;
+    line-height: 1.25; 
+}
+
+#footer .footer-top .footer-body h4{
+    font-family: myriad-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #FFFFFF; 
+    font-size: 24px;
+    line-height: 1.33; 
+}
+
+#footer .footer-top .footer-body .contact-us p{
+    font-family: myriad-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #c1d2d0;
+    font-size: 16px;
+    line-height: 1.25; 
+}
+
+#footer .footer-bottom{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #464847;
+}
+
+#footer .footer-bottom p{
+    font-family: myriad-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #c1d2d0;
+    font-size: 16px;
+    line-height: 1.375;
+}
+/* footer */
