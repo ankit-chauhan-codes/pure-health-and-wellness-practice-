@@ -337,7 +337,6 @@ html, body{
     background: url(../images/call-to-action-bg-image.jpg) no-repeat center;
     background-size: cover;
     width: 100%;
-    align-items: center;
 }
 
 #cta h6{
@@ -419,3 +418,55 @@ html, body{
     object-fit: cover;
 }
 /* testimonial */
+
+
+
+/* do-it */
+#do-it{
+    padding-top: 140px;
+    padding-bottom: 140px;
+    background: url(../images/why-do-it-bg-image.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+}
+
+#do-it h6{
+    font-family: myriad-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #769B97;
+    font-size: 18px;
+    line-height: 4;
+    letter-spacing: -1.8;
+}
+
+#do-it h2{
+    font-family: myriad-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #181B1A;
+    font-size: 60px;
+    line-height: 1.06;
+    letter-spacing: -1.2;
+}
+
+#do-it h5{
+    font-family: myriad-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #181B1A;
+    font-size: 30px;
+    line-height: 1.33;
+    letter-spacing: -0.6;
+}
+
+#do-it p{
+    font-family: myriad-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #464847;
+    font-size: 18px;
+    line-height: 1.44;
+    max-width: 88%;
+}
+/* do-it */
