@@ -235,7 +235,6 @@ html, body{
    max-width: 560px;
    background: #ffffff;
    border-radius: 10px;
-   color: yellow;
 }
 
 #our-services .service-box:hover {
@@ -271,3 +270,51 @@ html, body{
     line-height: 1.44;
 }
 /* our-services */
+
+/* work */
+#work{
+    padding-top: 140px ;
+    padding-bottom: 140px ;
+}
+
+#work h6{
+    font-family: myriad-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #769B97;
+    font-size: 18px;
+    line-height: 4;
+    letter-spacing: -1.8;
+}
+
+#work h2{
+    font-family: myriad-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #181B1A;
+    font-size: 60px;
+    line-height: 1.06;
+    letter-spacing: -1.2;
+}
+
+#work h5{
+    font-family: myriad-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #181B1A;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: -0.72;
+}
+
+#work p{
+    font-family: myriad-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #464847;
+    font-size: 18px;
+    line-height: 1.44;
+    padding: 0 70px;
+    margin: auto;
+}
+/* work */
