@@ -535,3 +535,60 @@ html, body{
     letter-spacing: -0.48;
 }
 /* blog */
+
+
+
+/* contact-us */
+#contact-us{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: url(../images/contact-us-bg-image.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+}
+
+#contact-us h6{
+    font-family: myriad-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 4;
+    letter-spacing: -1.8;
+}
+
+#contact-us h2{
+    font-family: myriad-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #FFFFFF;
+    font-size: 60px;
+    line-height: 1;
+    letter-spacing: -1.2;
+}
+
+#contact-us h5{
+    font-family: myriad-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #c1d2d0;
+    font-size: 21px;
+    line-height: 1.38;
+}
+
+#contact-us p{
+    font-family: myriad-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 1.33;
+    letter-spacing: -0.48;
+    padding-left: 36px;
+    margin: auto;
+}
+
+#contact-us .contact-us-contact-info h5{
+    margin-left: -5px;
+}
+/* contact-us */
