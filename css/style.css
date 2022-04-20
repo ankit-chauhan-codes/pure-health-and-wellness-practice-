@@ -37,6 +37,14 @@ html, body{
     color: #ffffff;
 }
 
+.fourth-btn{
+    border: none;
+    color: #769B97;
+    border-bottom: 2px solid #769B97;
+    padding: 0;
+    border-radius: 0;
+}
+
 
 /* Nav */
 .navbar{
@@ -187,3 +195,79 @@ html, body{
     max-width: 80%;
 }
 /* customer-service */
+
+
+
+/* our-services */
+#our-services{
+    padding-top: 130px ;
+    padding-bottom: 130px ;
+    background: url(../images/our-services-bg-image.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+}
+
+#our-services h6{
+    font-family: myriad-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #769B97;
+    font-size: 18px;
+    line-height: 4;
+    letter-spacing: -1.8;
+}
+
+#our-services h2{
+    font-family: myriad-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #181B1A;
+    font-size: 60px;
+    line-height: 1.06;
+    letter-spacing: -1.2;
+}
+
+#our-services .service-box {
+   padding-top: 60px;
+   padding-bottom: 60px;
+   padding-left: 100px;
+   padding-right: 100px;
+   max-width: 560px;
+   background: #ffffff;
+   border-radius: 10px;
+   color: yellow;
+}
+
+#our-services .service-box:hover {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 560px;
+    background: #769B97;
+    border-radius: 10px;
+}
+
+#our-services img{
+    width: 100%;
+}
+
+#our-services h5{
+    font-family: myriad-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #181B1A;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: -0.72;
+}
+
+#our-services p{
+    font-family: myriad-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #464847;
+    font-size: 18px;
+    line-height: 1.44;
+}
+/* our-services */
