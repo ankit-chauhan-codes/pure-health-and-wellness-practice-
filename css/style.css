@@ -37,6 +37,11 @@ html, body{
     color: #ffffff;
 }
 
+.third-btn:hover{
+    background-color: #181B1A;
+    color: #769b97;
+}
+
 .fourth-btn{
     border: none;
     color: #769B97;
@@ -318,3 +323,35 @@ html, body{
     margin: auto;
 }
 /* work */
+
+
+/* cta */
+#cta{
+    padding-top: 80px ;
+    padding-bottom: 80px ;
+    background: url(../images/call-to-action-bg-image.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    align-items: center;
+}
+
+#cta h6{
+    font-family: myriad-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 4;
+    letter-spacing: -1.8;
+}
+
+#cta h2{
+    font-family: myriad-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 60px;
+    line-height: 1.06;
+    letter-spacing: -1.2;
+}
+/* cta */
