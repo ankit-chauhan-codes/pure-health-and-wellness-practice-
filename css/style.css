@@ -246,6 +246,7 @@ html, body{
    max-width: 560px;
    background: #ffffff;
    border-radius: 10px;
+   color: #181B1A;
 }
 
 #our-services .service-box:hover {
@@ -257,6 +258,7 @@ html, body{
     background: #769B97;
     border-radius: 10px;
     cursor: pointer;
+    color: #ffffff;
 }
 
 #our-services img{
@@ -271,7 +273,6 @@ html, body{
     font-family: myriad-pro, sans-serif;
     font-weight: 700;
     font-style: normal;
-    color: #181B1A;
     font-size: 36px;
     line-height: 1.16;
     letter-spacing: -0.72;
@@ -281,7 +282,6 @@ html, body{
     font-family: myriad-pro, sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #464847;
     font-size: 18px;
     line-height: 1.44;
 }
@@ -591,6 +591,81 @@ html, body{
 #contact-us .contact-us-contact-info h5{
     margin-left: -5px;
 }
+
+#contact-us .contact-box{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    max-width: 560px;
+    background: #ffffff;
+    border-radius: 10px;
+ }
+
+ #contact-us h4{
+    font-family: myriad-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #181B1A;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: -0.72;
+ }
+
+ #contact-us .contact-box form label{
+    font-family: myriad-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #181B1A;
+    font-size: 18px;
+    line-height: 1.44;
+ }
+
+ #contact-us .contact-box form input{
+    font-family: acumin-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #181D2A;
+    font-size: 16px;
+    line-height: 1.625;
+     border: none;
+     border-bottom: 1px solid #C1D2D0;
+     border-radius: 0;
+     box-shadow: none;
+     margin-top: -7px;
+ }
+
+ #contact-us .contact-box form input:hover,
+ #contact-us .contact-box form input:active,
+ #contact-us .contact-box form input:focus{
+    border: none;
+    border-bottom: 1px solid #464847;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+#contact-us .contact-box form textarea{
+    font-family: myriad-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #181D2A;
+    font-size: 16px;
+    line-height: 1.625;
+     border: none;
+     border-bottom: 1px solid #C1D2D0;
+     border-radius: 0;
+     box-shadow: none;
+ }
+
+ #contact-us .contact-box form textarea:hover,
+ #contact-us .contact-box form textarea:active,
+ #contact-us .contact-box form textarea:focus{
+    border: none;
+    border-bottom: 1px solid #464847;
+    border-radius: 0;
+    box-shadow: none;
+ }
+
 /* contact-us */
 
 
@@ -660,7 +735,7 @@ html, body{
     font-family: myriad-pro, sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #c1d2d0;
+    color: #769B97;
     font-size: 16px;
     line-height: 1.375;
 }
