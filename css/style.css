@@ -16,14 +16,20 @@ html, body{
     font-weight: 600;
     font-style: normal;
     font-size: 18px; 
-    padding: 12px 30px;
+    padding: 15px 30px;
     border-radius: 6px;
     text-decoration: none;
 }
 
+.first-btn{
+    background-color: #769b97;
+    color: #ffffff; 
+    padding: 12px 30px;
+}
+
 .primary-btn{
     background-color: #769b97;
-    color: #ffffff;
+    color: #ffffff; 
 }
 
 .secondary-btn{
@@ -62,6 +68,8 @@ html, body{
     border-bottom: 1px solid #E9EFEF;
     background: transparent;
     margin-bottom: -100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .navbar .navbar-nav .nav-link{
@@ -72,20 +80,25 @@ html, body{
     font-size: 18px;
     line-height: 1.44;
     transition: all 0.4s ease;
-    margin-right: 60px;
+    margin-right: 28px;
+    transform: translateX(-100px);
+    border-bottom: 4px solid transparent;
+
 }
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link:active,
 .navbar .navbar-nav .nav-link:focus{
     color: #769B97;
-    border-bottom: 4px solid #769B97;
+  
     text-decoration: none;
     font-family: myriad-pro, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 18px;
     line-height: 1.44;
+    border: none;
+    border-bottom: 4px solid #769B97;
 }
 /* Nav */
 
@@ -104,10 +117,19 @@ html, body{
     font-family: myriad-pro, sans-serif;
     font-weight: 700;
     font-style: normal;
-    color: #769B97;
+    color: #c1d2d0;
     font-size: 18px;
-    line-height: 4;
-    letter-spacing: 1.8;
+    line-height: 1.2;
+    letter-spacing: 1.8px;
+    margin-left: 50px;
+}
+
+#home .home-border{
+    background-color: #c1d2d0;
+    padding: 1px 5px;
+    max-width: 35px;
+    transform: translateY(-12px);
+    align-items: center;
 }
 
 #home h2{
@@ -117,7 +139,7 @@ html, body{
     color: #181B1A;
     font-size: 72px;
     line-height: 1;
-    letter-spacing: -1.44;
+    letter-spacing: -1.44px;
 }
 
 #home p{
@@ -154,8 +176,8 @@ html, body{
     font-style: normal;
     color: #769B97;
     font-size: 18px;
-    line-height: 4;
-    letter-spacing: -1.8;
+    line-height: 1.2;
+    letter-spacing: 1.8px;
 }
 
 #about-us h2{
@@ -165,7 +187,7 @@ html, body{
     color: #181B1A;
     font-size: 60px;
     line-height: 1.06;
-    letter-spacing: -1.2;
+    letter-spacing: -1.2px;
 }
 
 #about-us p{
@@ -184,6 +206,7 @@ html, body{
 #customer-service{
     padding-top: 40px;
     padding-bottom: 140px;
+    margin: 0;
 }
 
 #customer-service .service-box{
@@ -203,7 +226,7 @@ html, body{
     color: #181B1A;
     font-size: 24px;
     line-height: 1.33;
-    letter-spacing: -0.48;
+    letter-spacing: -0.48px;
     max-width: 80%;
 }
 /* customer-service */
@@ -225,8 +248,8 @@ html, body{
     font-style: normal;
     color: #769B97;
     font-size: 18px;
-    line-height: 4;
-    letter-spacing: -1.8;
+    line-height: 1.2;
+    letter-spacing: 1.8px;
 }
 
 #our-services h2{
@@ -236,7 +259,7 @@ html, body{
     color: #181B1A;
     font-size: 60px;
     line-height: 1.06;
-    letter-spacing: -1.2;
+    letter-spacing: -1.2px;
 }
 
 #our-services .service-box {
@@ -276,7 +299,7 @@ html, body{
     font-style: normal;
     font-size: 36px;
     line-height: 1.16;
-    letter-spacing: -0.72;
+    letter-spacing: -0.72px;
 }
 
 #our-services p{
@@ -300,8 +323,8 @@ html, body{
     font-style: normal;
     color: #769B97;
     font-size: 18px;
-    line-height: 4;
-    letter-spacing: -1.8;
+    line-height: 1.2;
+    letter-spacing: 1.8px;
 }
 
 #work h2{
@@ -311,7 +334,7 @@ html, body{
     color: #181B1A;
     font-size: 60px;
     line-height: 1.06;
-    letter-spacing: -1.2;
+    letter-spacing: -1.2px;
 }
 
 #work h5{
@@ -321,7 +344,7 @@ html, body{
     color: #181B1A;
     font-size: 36px;
     line-height: 1.16;
-    letter-spacing: -0.72;
+    letter-spacing: -0.72px;
 }
 
 #work p{
@@ -350,10 +373,10 @@ html, body{
     font-family: myriad-pro, sans-serif;
     font-weight: 700;
     font-style: normal;
-    color: #FFFFFF;
+    color: #c1d2d0;
     font-size: 18px;
-    line-height: 4;
-    letter-spacing: -1.8;
+    line-height: 1.2;
+    letter-spacing: 1.8px;
 }
 
 #cta h2{
@@ -363,7 +386,7 @@ html, body{
     color: #ffffff;
     font-size: 60px;
     line-height: 1.06;
-    letter-spacing: -1.2;
+    letter-spacing: -1.2px;
 }
 /* cta */
 
@@ -381,8 +404,8 @@ html, body{
     font-style: normal;
     color: #769B97;
     font-size: 18px;
-    line-height: 4;
-    letter-spacing: -1.8;
+    line-height: 1.2;
+    letter-spacing: 1.8px;
 }
 
 #testimonial h2{
@@ -392,8 +415,8 @@ html, body{
     color: #181B1A;
     font-size: 60px;
     line-height: 1.06;
-    letter-spacing: -1.2;
-    padding: 0 20%;
+    letter-spacing: -1.2px;
+    padding: 0 25%;
     margin: auto;
 }
 
@@ -415,7 +438,7 @@ html, body{
     color: #181B1A;
     font-size: 24px;
     line-height: 1.33;
-    letter-spacing: -0.48;
+    letter-spacing: -0.48px;
 }
 
 #testimonial .testimonial-image img{
@@ -443,8 +466,8 @@ html, body{
     font-style: normal;
     color: #769B97;
     font-size: 18px;
-    line-height: 4;
-    letter-spacing: -1.8;
+    line-height: 1.2;
+    letter-spacing: 1.8px;
 }
 
 #do-it h2{
@@ -454,7 +477,7 @@ html, body{
     color: #181B1A;
     font-size: 60px;
     line-height: 1.06;
-    letter-spacing: -1.2;
+    letter-spacing: -1.2px;
 }
 
 #do-it h5{
@@ -464,7 +487,7 @@ html, body{
     color: #181B1A;
     font-size: 30px;
     line-height: 1.33;
-    letter-spacing: -0.6;
+    letter-spacing: -0.6px;
 }
 
 #do-it p{
@@ -491,8 +514,8 @@ html, body{
     font-style: normal;
     color: #769B97;
     font-size: 18px;
-    line-height: 4;
-    letter-spacing: -1.8;
+    line-height: 1.2;
+    letter-spacing: 1.8px;
 }
 
 #blog h2{
@@ -502,7 +525,7 @@ html, body{
     color: #181B1A;
     font-size: 60px;
     line-height: 1.06;
-    letter-spacing: -1.2;
+    letter-spacing: -1.2px;
 }
 
 #blog .blog-card{
@@ -533,7 +556,7 @@ html, body{
     color: #181B1A;
     font-size: 24px;
     line-height: 1.33;
-    letter-spacing: -0.48;
+    letter-spacing: -0.48px;
 }
 /* blog */
 
@@ -552,10 +575,10 @@ html, body{
     font-family: myriad-pro, sans-serif;
     font-weight: 700;
     font-style: normal;
-    color: #ffffff;
+    color: #c1d2d0;
     font-size: 18px;
-    line-height: 4;
-    letter-spacing: -1.8;
+    line-height: 1.2;
+    letter-spacing: 1.8px;
 }
 
 #contact-us h2{
@@ -565,7 +588,7 @@ html, body{
     color: #FFFFFF;
     font-size: 60px;
     line-height: 1;
-    letter-spacing: -1.2;
+    letter-spacing: -1.2px;
 }
 
 #contact-us h5{
@@ -584,9 +607,23 @@ html, body{
     color: #FFFFFF;
     font-size: 24px;
     line-height: 1.33;
-    letter-spacing: -0.48;
+    letter-spacing: -0.48px;
     padding-left: 36px;
     margin: auto;
+}
+
+#contact-us .contact-us-contact-info a{
+    font-family: myriad-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 1.33;
+    letter-spacing: -0.48px;
+    padding-left: 36px;
+    margin: auto;
+    text-decoration: none;
+    display: block;
 }
 
 #contact-us .contact-us-contact-info h5{
@@ -601,6 +638,7 @@ html, body{
     max-width: 560px;
     background: #ffffff;
     border-radius: 10px;
+    margin-left: -50px;
  }
 
  #contact-us h4{
@@ -610,7 +648,7 @@ html, body{
     color: #181B1A;
     font-size: 36px;
     line-height: 1.11;
-    letter-spacing: -0.72;
+    letter-spacing: -0.72px;
  }
 
  #contact-us .contact-box form label{
@@ -634,13 +672,14 @@ html, body{
      border-radius: 0;
      box-shadow: none;
      margin-top: -7px;
+     padding: 6px 0;
  }
 
  #contact-us .contact-box form input:hover,
  #contact-us .contact-box form input:active,
  #contact-us .contact-box form input:focus{
     border: none;
-    border-bottom: 1px solid #464847;
+    border-bottom: 1px solid #769B97;
     border-radius: 0;
     box-shadow: none;
 }
@@ -692,13 +731,23 @@ html, body{
     max-width: 78%;
 }
 
+#footer .footer-top .nav-tab{
+    transform: translateX(110px);
+}
+
+#footer .footer-top .services{
+    transform: translateX(-30px);
+}
+
 #footer .footer-top .navigation a,
-#footer .footer-top .our-services a{
+#footer .footer-top .our-services a,
+#footer .footer-top .contact-us a{
     display: block;
 }
 
 #footer .footer-top .navigation a,
-#footer .footer-top .our-services a{
+#footer .footer-top .our-services a,
+#footer .footer-top .contact-us a{
     text-decoration: none;
     font-family: myriad-pro, sans-serif;
     font-weight: 400;
