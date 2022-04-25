@@ -261,6 +261,22 @@ html, body{
     letter-spacing: 1.8px;
 }
 
+#our-services .service-border{
+    background-color: #769B97;
+    padding: 1px 5px;
+    max-width: 35px;
+    transform: translateY(-36px);
+    margin-left: 56%;
+}
+
+#our-services .service-border2{
+    background-color: #769B97;
+    padding: 1px 5px;
+    max-width: 35px;
+    transform: translateY(-37px);
+    margin-left: 41.5%;
+}
+
 #our-services h2{
     font-family: myriad-pro, sans-serif;
     font-weight: 700;
@@ -334,6 +350,22 @@ html, body{
     font-size: 18px;
     line-height: 1.2;
     letter-spacing: 1.8px;
+}
+
+#work .work-border{
+    background-color: #769B97;
+    padding: 1px 5px;
+    max-width: 35px;
+    transform: translateY(-36px);
+    margin-left: 56%;
+}
+
+#work .work-border2{
+    background-color: #769B97;
+    padding: 1px 5px;
+    max-width: 35px;
+    transform: translateY(-37px);
+    margin-left: 41%;
 }
 
 #work h2{
@@ -426,6 +458,22 @@ html, body{
     letter-spacing: 1.8px;
 }
 
+#testimonial .testimonial-border{
+    background-color: #769B97;
+    padding: 1px 5px;
+    max-width: 35px;
+    transform: translateY(-36px);
+    margin-left: 56%;
+}
+
+#testimonial .testimonial-border2{
+    background-color: #769B97;
+    padding: 1px 5px;
+    max-width: 35px;
+    transform: translateY(-37px);
+    margin-left: 41%;
+}
+
 #testimonial h2{
     font-family: myriad-pro, sans-serif;
     font-weight: 700;
@@ -486,6 +534,22 @@ html, body{
     font-size: 18px;
     line-height: 1.2;
     letter-spacing: 1.8px;
+}
+
+#do-it .do-it-border{
+    background-color: #769B97;
+    padding: 1px 5px;
+    max-width: 35px;
+    transform: translateY(-35px); 
+    margin-left: 55%;
+}
+
+#do-it .do-it-border2{
+    background-color: #769B97;
+    padding: 1px 5px;
+    max-width: 35px;
+    transform: translateY(-36px);
+    margin-left: 42%;
 }
 
 #do-it h2{
