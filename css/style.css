@@ -48,20 +48,6 @@ html, body{
     color: #769b97;
 }
 
-.fourth-btn{
-    color: #769B97;
-    border-bottom: 2px solid #769B97;
-    padding: 0;
-    border-radius: 0;
-}
-
-.fourth-btn:hover{
-    color: #181B1A;
-    border-bottom: 2px solid #181B1A;
-    padding: 0;
-    border-radius: 0;
-}
-
 
 /* Nav */
 .navbar{
@@ -90,7 +76,6 @@ html, body{
 .navbar .navbar-nav .nav-link:active,
 .navbar .navbar-nav .nav-link:focus{
     color: #769B97;
-  
     text-decoration: none;
     font-family: myriad-pro, sans-serif;
     font-weight: 400;
@@ -310,6 +295,16 @@ html, body{
     color: #ffffff;
 }
 
+#our-services .service-box a {
+    color: #769B97;
+    border-bottom: 2px solid #769B97; 
+ }
+ 
+ #our-services .service-box:hover a {
+     color: #ffffff;
+     border-bottom: 2px solid #ffffff; 
+ }
+
 #our-services img{
     width: 100%;
     border-radius: 100%;
@@ -334,6 +329,22 @@ html, body{
     font-size: 18px;
     line-height: 1.44;
 }
+
+#our-services .service-box-link a{
+    text-decoration: none;
+    font-family: myriad-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #769B97;
+    font-size: 18px;
+    line-height: 1.44;
+    border-bottom: 2px solid #769B97;
+    box-shadow: none;
+    border-radius: 0; 
+    padding: 0;
+}
+
+
 /* our-services */
 
 /* work */
